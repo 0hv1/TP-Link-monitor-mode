@@ -13,7 +13,7 @@ sudo rmmod r8188eu.ko
 git clone https://github.com/drygdryg/rtl8188eus.git
 cd rtl8188eus
 sudo -i
-echo "blacklist r8188eu" > "/etc/modprobe.d/realtek.conf"
+echo 'blacklist r8188eu'|sudo tee -a '/etc/modprobe.d/realtek.conf'
 exit
 sudo reboot
 sudo apt update
