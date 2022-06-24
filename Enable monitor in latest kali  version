@@ -21,6 +21,7 @@ cd rtl8188eus
 sudo make
 sudo make install
 sudo modprobe 8188eu
+reboot
 
 !To enable Monitor mode and test packet injection:
 !=================================================
